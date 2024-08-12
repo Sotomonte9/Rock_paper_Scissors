@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="palcentro"><h1>Tonio escoge una de estas tres</h1></header>
+    <div class="box">
+        <div>
+            <div class="grande"><button id="tijeras" onclick="jueguito('✂️')">✂️</button></div>
+            <div class="grande"><button id="piedra" onclick="jueguito('🪨')">🪨</button></div>
+            <div class="grande"><button id="papel" onclick="jueguito('🗞️')">🗞️</button></div>
+        </div>
+
+        <div>
+            <div><h1>VS</h1></div>
+        </div>
+
+        <div>
+            <div id="resultado" class="ia"><h2>La IA está pensando...</h2></div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

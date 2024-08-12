@@ -1,0 +1,33 @@
+.grande{
+    font-size: x-large;
+    margin: 20px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.ia{
+    height: 100px;
+    width: 100px;
+    margin-right: 100px;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    font-size: x-large;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+.palcentro{
+    display: flex;
+    justify-content: center;
+}
